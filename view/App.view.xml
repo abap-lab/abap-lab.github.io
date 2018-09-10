@@ -1,0 +1,7 @@
+<View xmlns="sap.f" xmlns:m="sap.m" displayBlock="true" height="100%" controllerName="abap.lab.controller.App">
+	<m:App>
+		<m:Shell appWidthLimited="false">
+			<FlexibleColumnLayout id="flexibleColumnLayout" stateChange="onStateChanged" layout="{/layout}"/>
+		</m:Shell>
+	</m:App>
+</View>

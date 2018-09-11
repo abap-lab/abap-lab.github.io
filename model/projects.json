@@ -5,7 +5,7 @@
 			"id": "ZOBJECT_BOOKMARK",
 			"icon": "https://avatars3.githubusercontent.com/u/41132227?s=200&v=4",
 			"name": "ZOBJECT_BOOKMARK",
-			"description": "SAP Object Bookmark, 테이블을 즐겨찾기로 등록해 관리하세요!^^",
+			"description": "SAP Table Object Bookmark, <br> 테이블을 즐겨찾기로 등록해 관리하세요!^^",
 			"git": "https://github.com/abap-lab/SAPObjectBookmark.git",
 			"license": "MIT"
 		}]

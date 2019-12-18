@@ -2,42 +2,26 @@
 	"title": "",
 	"projectMaster_abaplab": [
 		[{
-			"id": "ZOBJECT_BOOKMARK",
-			"icon": "https://avatars3.githubusercontent.com/u/41132227?s=200&v=4",
-			"name": "ZOBJECT_BOOKMARK",
-			"description": "SAP Table Object Bookmark,이젠 Table 를 즐겨찾기로 편히 관리하세요!",
-			"git": "https://github.com/abap-lab/SAPObjectBookmark.git",
+			"id": "Z_FILAB_IFM",
+			"icon": "https://avatars2.githubusercontent.com/u/53260187?s=200&v=4",
+			"name": "Z_FILAB_IFM",
+			"description": "IFM(Integrated Finance Management)",
+			"git": "https://github.com/open-fi-lab/Z_FILAB_IFM.git",
 			"license": "MIT"
 		}]
 	],
 	"projectMaster_abapopen": [
-		[{
-			"id": "abapGit",
-			"icon": "https://avatars3.githubusercontent.com/u/5888506?s=400&v=4",
-			"name": "abapGit",
-			"description": "Git client for ABAP,이젠 ABAP Source 도 Github 에서 공유하세요!",
-			"git": "https://github.com/larshp/abapGit.git",
-			"license": "MIT"
-		}]
+		[]
 	],
 	"projectDetail": {
-		"ZOBJECT_BOOKMARK": {
-			"avatar_url": "https://avatars3.githubusercontent.com/u/41132227?s=200&v=4",
-			"creator": "ABAP LAB",
-			"information": "<p>- 별도의 테이블 구성 없이, SAP Standard 기능인 Set 를 활용하였습니다.</p><p>- 테이블에 대해 즐겨찾기를 관리하고, 조회/필터/수정의 기능을 구현했습니다.</p><p>- 각 추가된 테이블에 대해 간단한 한줄 설명을 달 수 있습니다.</p><p>- 최대한 SAP Core 기능을 활용하여 구현했습니다.</p>",
+		"Z_FILAB_IFM": {
+			"avatar_url": "https://avatars2.githubusercontent.com/u/53260187?s=200&v=4",
+			"creator": "FI Lab",
+			"information": "<p>Companies that use the SAP FI module can run 12 reports on a report, including the Trial Balance, Income Statement, and Balance Sheet.</p><p>Each report can be downloaded to Excel.</p><p>You can view multiple company code data at once.</p><p>Companies with different currencies can be seen on the same basis at own managed exchange rates.</p>",
 			"images": [{
-				"image": "http://m.fi-lab.com/files/2018/09/03/6b428af235a185bcce82334e937f1296131132.png"
+				"image": "https://fi-lab.com/files/2019/07/04/398e8240df69c97332beff1cb1e9e237235425.png"
 			}],
-			"video": "https://www.youtube.com/embed/Pgd0pw-ALRU"
-		},
-		"abapGit": {
-			"avatar_url": "https://avatars3.githubusercontent.com/u/5888506?s=400&v=4",
-			"creator": "Lars Hvam",
-			"information": "<p>Git client for ABAP</p><p>Works with: GitHub, GitLab, Assembla, Bitbucket, abapGitServer, SCP, AWS, TFS and more</p><p>ABAP Version: 702 or higher</p><p>Latest build: zabapgit.abap</p>",
-			"images": [{
-				"image": "https://camo.githubusercontent.com/6a8e09d594932cf6845f930cac700e54c4445835/687474703a2f2f646f63732e616261706769742e6f72672f696d672f616261706769745f315f37335f302e706e67"
-			}],
-			"video": "https://www.youtube.com/embed/5TCBcJCafP4"
+			"video": ""
 		}
 	}
 }

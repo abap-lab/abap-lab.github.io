@@ -65,52 +65,52 @@
 							</layout:BlockLayoutCell>
 						</layout:BlockLayoutRow>
 					</layout:BlockLayout>
-					<Title text="ABAP Open Projects" titleStyle="H2" class="sapUiSmallMargin"/>
-					<layout:BlockLayout id="projectLayout_abapopen" content="{projects>/projectMaster_abapopen}" background="Light">
-						<layout:BlockLayoutRow>
-							<layout:BlockLayoutCell title="ABAP Lab Apps"></layout:BlockLayoutCell>
-						</layout:BlockLayoutRow>
-						<layout:BlockLayoutRow content="{projects>}">
-							<layout:BlockLayoutCell class="sapUiContentPadding" width="4">
-								<layout:HorizontalLayout width="100%">
+					<!--<Title text="ABAP Open Projects" titleStyle="H2" class="sapUiSmallMargin"/>-->
+					<!--<layout:BlockLayout id="projectLayout_abapopen" content="{projects>/projectMaster_abapopen}" background="Light">-->
+					<!--	<layout:BlockLayoutRow>-->
+					<!--		<layout:BlockLayoutCell title="ABAP Lab Apps"></layout:BlockLayoutCell>-->
+					<!--	</layout:BlockLayoutRow>-->
+					<!--	<layout:BlockLayoutRow content="{projects>}">-->
+					<!--		<layout:BlockLayoutCell class="sapUiContentPadding" width="4">-->
+					<!--			<layout:HorizontalLayout width="100%">-->
 									<!--<core:Icon src="{projects>icon}" size="2rem" color="Default"></core:Icon>-->
-									<f:Avatar src="{projects>icon}" displaySize="S" displayShape="Square" class="sapUiTinyMarginEnd"/>
-									<Title level="H1" titleStyle="H1" text="{projects>name}" tooltip="{projects>name}" class="sapUiTinyMarginBegin"/>
-								</layout:HorizontalLayout>
-								<layout:VerticalLayout width="100%">
-									<Text text="{projects>description}" class="sapUiTinyMarginBottom"/>
-									<Link press="onProjectPress" text="{i18n>detail}" class="sapUiSmallMarginBottom" emphasized="true"/>
-									<Label text="License: {projects>license}" class="sapUiTinyMarginEnd"/>
-									<layout:VerticalLayout class="sapUiTinyMarginBottom" width="100%">
-										<layout:content>
+					<!--				<f:Avatar src="{projects>icon}" displaySize="S" displayShape="Square" class="sapUiTinyMarginEnd"/>-->
+					<!--				<Title level="H1" titleStyle="H1" text="{projects>name}" tooltip="{projects>name}" class="sapUiTinyMarginBegin"/>-->
+					<!--			</layout:HorizontalLayout>-->
+					<!--			<layout:VerticalLayout width="100%">-->
+					<!--				<Text text="{projects>description}" class="sapUiTinyMarginBottom"/>-->
+					<!--				<Link press="onProjectPress" text="{i18n>detail}" class="sapUiSmallMarginBottom" emphasized="true"/>-->
+					<!--				<Label text="License: {projects>license}" class="sapUiTinyMarginEnd"/>-->
+					<!--				<layout:VerticalLayout class="sapUiTinyMarginBottom" width="100%">-->
+					<!--					<layout:content>-->
 											<!--<MessageStrip type="Information" showIcon="true" customIcon="sap-icon://chain-link">-->
 											<!--	<link>-->
 											<!--		<Link text="{projects>git}" target="_blank" href="{projects>git}"/>-->
 											<!--	</link>-->
 											<!--</MessageStrip>-->
-											<Bar>
-												<contentLeft>
+					<!--						<Bar>-->
+					<!--							<contentLeft>-->
 													<!--<ScrollContainer height="100%" width="100%" horizontal="true" vertical="true" focusable="true">-->
-													<core:Icon src="sap-icon://chain-link"></core:Icon>
-													<Link text="{projects>git}" target="_blank" href="{projects>git}"/>
+					<!--								<core:Icon src="sap-icon://chain-link"></core:Icon>-->
+					<!--								<Link text="{projects>git}" target="_blank" href="{projects>git}"/>-->
 													<!--</ScrollContainer>-->
-												</contentLeft>
+					<!--							</contentLeft>-->
 												<!--<contentMiddle>-->
 												<!--</contentMiddle>-->
-												<contentRight>
-													<Button icon="sap-icon://copy" press="onCopyToClipboard">
-														<customData>
-															<core:CustomData key="gitData" value="{projects>git}" writeToDom="true"/>
-														</customData>
-													</Button>
-												</contentRight>
-											</Bar>
-										</layout:content>
-									</layout:VerticalLayout>
-								</layout:VerticalLayout>
-							</layout:BlockLayoutCell>
-						</layout:BlockLayoutRow>
-					</layout:BlockLayout>
+					<!--							<contentRight>-->
+					<!--								<Button icon="sap-icon://copy" press="onCopyToClipboard">-->
+					<!--									<customData>-->
+					<!--										<core:CustomData key="gitData" value="{projects>git}" writeToDom="true"/>-->
+					<!--									</customData>-->
+					<!--								</Button>-->
+					<!--							</contentRight>-->
+					<!--						</Bar>-->
+					<!--					</layout:content>-->
+					<!--				</layout:VerticalLayout>-->
+					<!--			</layout:VerticalLayout>-->
+					<!--		</layout:BlockLayoutCell>-->
+					<!--	</layout:BlockLayoutRow>-->
+					<!--</layout:BlockLayout>-->
 				</content>
 			</Panel>
 		</content>

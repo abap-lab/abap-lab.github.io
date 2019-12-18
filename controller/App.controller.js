@@ -1,11 +1,36 @@
 sap.ui.define([
 	"sap/ui/model/json/JSONModel",
-	"sap/ui/core/mvc/Controller"
-], function(JSONModel, Controller) {
+	"sap/ui/core/mvc/Controller",
+	"sap/m/Button",
+	"sap/m/Dialog",
+	"sap/m/ButtonType",
+	"sap/m/Text"
+], function(JSONModel, Controller, Button, Dialog, ButtonType, Text) {
 	"use strict";
 
 	return Controller.extend("abap.lab.controller.App", {
 		onInit: function() {
+			var dialog = new Dialog({
+				title: "Information",
+				type: "Message",
+				state: sap.ui.core.ValueState.Information,
+				content: new Text({
+					text: "ABAP Lab Community 로 찾아 뵙겠습니다!"
+				}),
+				beginButton: new Button({
+					type: ButtonType.Emphasized,
+					text: "OK",
+					press: function () {
+						dialog.close();
+					}
+				}),
+				afterClose: function() {
+					dialog.destroy();
+				}
+			});
+
+			dialog.open();
+			
 			this.oOwnerComponent = this.getOwnerComponent();
 			this.oRouter = this.oOwnerComponent.getRouter();
 			this.oRouter.attachRouteMatched(this.onRouteMatched, this);
